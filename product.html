@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale 1">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="product.js"></script>
+    <title>Product Detail</title>
+</head>
+<body>
+
+    <header class="header">
+    <div class="header__menu">
+      <img src="img/logo_b.png" alt="DiveSea Logo" />
+      <a href="index.html">DISCOVER</a>
+      <a href="#">CREATORS</a>
+      <a href="#">SELL</a>
+      <a href="#">STATS</a>
+    </div>
+    <div class="header__nav">
+      <input class="loupe_input" type="text" placeholder="Search Artwork / Creator" />
+      <button class="header__btn">Connect Wallet</button>
+    </div>
+  </header>
+  <header class="header__mobile">
+    <img src="img/FullLogo.png" alt="DiveSea Logo" class="header__mobile-logo" />
+    <div class="header__burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    </header>
+
+    <div class="detail__back">
+        <a href="index.html"><img src="img/icon.png">Product Detail</a>
+    </div>
+    <div class="detail">
+        <div class="detail__card">
+            <div class="detail__img-box"></div>
+            <div class="detail__text-box">
+                <h3>Project Sun-Glass</h3>
+                <p>A collection of 10.000 utility-enabled PFPs that feature a richly diverse and unique pool of rarity-powered traits</p>
+                <div class="detail_-ppl-info">
+                    <div class="detail__creater">
+                        <img src="img/creater.png" alt="">
+                        <div class="detail__info">
+                            <p>Created by</p>
+                            <h5>Perperzon</h5>
+                        </div>
+                    </div>
+                    <div class="detail__owner">
+                        <img src="img/owner.png" alt="">
+                        <div class="detail__info">
+                            <p>Owned by</p>
+                            <h5>Videz</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="detail__stat">
+                    <div class="detail__bid">
+                        <p>Current Bid</p>
+                        <img src="img/index2.png" alt="">
+                    </div>
+                    <div class="detail__end-date">
+                        <p>End by</p>
+                        <p>Jun 17, 2023 at 05.08</p>
+                    </div>
+                </div>
+                <button class="detail__place-btn" id="open-modal-btn">
+                    <img src="img/bid.png" alt="">
+                    <p>Place Bid</p>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="my-modal">
+        <div class="modal__box">
+            <button class="modal__close-btn" id="close-my-modal-btn">
+                <?xml version="1.0" encoding="utf-8"?>
+                <svg width="23px" height="23px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 21.32L21 3.32001" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3 3.32001L21 21.32" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <div class="card">
+    <h2>History of Bid</h2>
+    <p class="date-label">Oct 14, 2022</p>
+
+    <div class="bid-entry">
+      <img src="img/Ellipse 29.png" class="avatar"/>
+      <div class="bid-info">
+        <span class="name">Repo</span>
+        <span class="time">May 17, 2022 at 12:08</span>
+      </div>
+      <div class="amount">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg" class="eth-icon"/>
+        <span>1.75</span>
+      </div>
+    </div>
+
+    <div class="bid-entry">
+      <img src="img/Ellipse 30.png" class="avatar"/>
+      <div class="bid-info">
+        <span class="name">Travo</span>
+        <span class="time">May 16, 2022 at 12:08</span>
+      </div>
+      <div class="amount">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg" class="eth-icon"/>
+        <span>1.57</span>
+      </div>
+    </div>
+
+    <div class="bid-entry">
+      <img src="img/Ellipse 31.png" class="avatar"/>
+      <div class="bid-info">
+        <span class="name">Jennifer</span>
+        <span class="time">May 16, 2022 at 6:08</span>
+      </div>
+      <div class="amount">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg" class="eth-icon"/>
+        <span>1.44</span>
+      </div>
+    </div>
+
+    <div class="bid-form">
+      <label for="bid" class="form-label">Your Bid</label>
+      <div class="input-row">
+        <select>
+          <option>ETH</option>
+        </select>
+        <input type="text" placeholder="Enter amount"/>
+      </div>
+      <button class="submit-btn">
+        <img src="img/bid.png" class="submit-icon" />
+        Submit
+      </button>
+    </div>
+  </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="footer__logo">
+            <img src="img/logo_w.png" alt="DiveSea">
+            <span>DiveSea</span>
+            </div>
+            <ul class="footer__nav">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Term & Conditions</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <hr class="footer__divider">
+
+        <div class="footer__bottom">
+            <p>© 2023 EATLY All Rights Reserved.</p>
+            <div class="footer__social">
+            <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="img/linkedin.png" alt="LinkedIn"></a>
+            <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale 1">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="create.js"></script>
+    <title>Create</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__menu">
+      <img src="img/logo_b.png" alt="DiveSea Logo" />
+      <a href="index.html">DISCOVER</a>
+      <a href="#">CREATORS</a>
+      <a href="#">SELL</a>
+      <a href="#">STATS</a>
+    </div>
+    <div class="header__nav">
+      <input class="loupe_input" type="text" placeholder="Search Artwork / Creator" />
+      <button class="header__btn">Connect Wallet</button>
+    </div>
+  </header>
+  <header class="header__mobile">
+    <img src="img/FullLogo.png" alt="DiveSea Logo" class="header__mobile-logo" />
+    <div class="header__burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    </header>
+
+    <h1>Create Your NFT</h1>
+  <div class="create-nft-container">
+    <div class="form-right">
+      <div class="upload-box">
+        <p>
+          <img src="upload-icon.png" alt="Upload Icon" />
+        </p>
+        <p>PNG, GIF, WEBP, MP4 or MP3. Max 1Gb.</p>
+      </div>
+      <button class="upload-btn">Upload</button>
+    </div>
+  <form id="create-nft-form" class="create-nft-form">
+  <div class="form-left">
+    <div class="form-group">
+      <label>Name</label>
+      <input type="text" name="name" placeholder="ArtWork Name" />
+    </div>
+
+    <div class="form-group">
+      <label>Description</label>
+      <textarea name="description" placeholder="Enter Your Description"></textarea>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label>Royalty</label>
+        <select name="royalty">
+          <option value="">Royalty</option>
+          <option value="5%">5%</option>
+          <option value="10%">10%</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Size</label>
+        <input type="text" name="size" placeholder="Ex - 100 x 100" />
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Tags</label>
+      <input type="text" name="tags" placeholder="Beautiful Castle, Monkeys ETC" />
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label>Price</label>
+        <div class="price-group">
+          <select name="currency">
+            <option value="ETH">ETH</option>
+            <option value="USDT">USDT</option>
+          </select>
+          <input type="text" name="price" value="0.00007 ETC" />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>In Stock</label>
+        <select name="stock">
+          <option value="001">001</option>
+          <option value="010">010</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="toggle-group">
+      <div class="toggle-option">
+        <div class="option__text-box">
+          <label>Put On Sale</label>
+          <p>People Will Bid On Your NFT Project</p>
+        </div>
+        <input type="checkbox" name="putOnSale" class="chbx" />
+      </div>
+      <div class="toggle-option">
+        <div class="option__text-box">
+          <label>Direct Sale</label>
+          <p>No Bids - Only Direct Selling</p>
+        </div>
+        <input type="checkbox" name="directSale" class="chbx" />
+      </div>
+    </div>
+    <button class="create-btn" type="submit">Create</button>
+  </div>
+</form>
+
+</div>
+
+
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="footer__logo">
+            <img src="img/logo_w.png" alt="DiveSea">
+            <span>DiveSea</span>
+            </div>
+            <ul class="footer__nav">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Term & Conditions</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <hr class="footer__divider">
+
+        <div class="footer__bottom">
+            <p>© 2023 EATLY All Rights Reserved.</p>
+            <div class="footer__social">
+            <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="img/linkedin.png" alt="LinkedIn"></a>
+            <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
