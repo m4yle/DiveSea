@@ -9,7 +9,7 @@
 
 ## Скриншоты:
 <img src="/img/screenshot_1.png" width="600" />
-<img src="/img/screenshot_1.png" width="600" />
+<img src="/img/screenshot_2.png" width="600" />
 <img src="/img/screenshot_3.png" width="600" />
 
 ## Структура:
