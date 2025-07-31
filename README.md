@@ -7,8 +7,10 @@
 - CSS3
 - JavaScript
 
-## Скриншот:
-<img src="screenshot.png" width="600" />
+## Скриншоты:
+<img src="/img/screenshot_1.png" width="600" />
+<img src="/img/screenshot_1.png" width="600" />
+<img src="/img/screenshot_3.png" width="600" />
 
 ## Структура:
 - `/index.html` — главная страница
